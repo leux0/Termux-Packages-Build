@@ -12,7 +12,7 @@ set -e -u
 ###############################################################################
 
 TERMUX_NDK_VERSION=18
-TERMUX_ANDROID_BUILD_TOOLS_VERSION=28.0.2
+TERMUX_ANDROID_BUILD_TOOLS_VERSION=28.0.3
 
 SDK="${HOME}/lib/android-sdk"
 NDK="${HOME}/lib/android-ndk"
@@ -112,7 +112,7 @@ fi
 yes | $SDK/tools/bin/sdkmanager --licenses
 
 # The android-21 platform is used in the ecj package:
-$SDK/tools/bin/sdkmanager "build-tools;${TERMUX_ANDROID_BUILD_TOOLS_VERSION}" "platforms;android-27" "platforms;android-21"
+$SDK/tools/bin/sdkmanager "build-tools;${TERMUX_ANDROID_BUILD_TOOLS_VERSION}" "platforms;android-28" "platforms;android-21"
 
 echo -e "\nAndroid Development Tool Configuration Is Complete...\n"
 
