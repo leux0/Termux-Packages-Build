@@ -5,6 +5,8 @@
 
 #### 通过在用户根目录（$HOME）执行 ./setup-termux-build.sh 来自动搭建Termux包编译环境。
 
+#### 在 packages 目录里有一些兼容Termux的可编译包。
+
 # 错误：
 
 1. `mv: cannot move '/home/xxx/.termux-build/_cache/18-aarch64-21-v4-tmp' to '/home/xxx/.termux-build/_cache/18-aarch64-21-v4': Permission denied`
