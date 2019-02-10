@@ -12,4 +12,4 @@
 1. `mv: cannot move '/home/xxx/.termux-build/_cache/18-aarch64-21-v4-tmp' to '/home/xxx/.termux-build/_cache/18-aarch64-21-v4': Permission denied`
 2. 手动执行 `mv /home/xxx/.termux-build/_cache/18-aarch64-21-v4-tmp /home/xxx/.termux-build/_cache/18-aarch64-21-v4` 即可
 
-#### 更新于2019.02.06
+#### 更新于2019.02.10
